@@ -36,6 +36,15 @@
 	<?= form_submit('','Login') ?>
 
 	<?= form_close() ?>
+	
+	<br>
+	Recuperar contrase&ntilde;a<br>
+	<?= form_open('Email/restaurar') ?>
+	<label for="pass">Email: <input type="email" name="email" ></label><br>
+	
+	<?= form_submit('','EnviarEmail') ?>
+	<?= form_close() ?>
+	
 
 	</body>
 
